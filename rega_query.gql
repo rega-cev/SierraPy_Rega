@@ -1,0 +1,20 @@
+inputSequence {
+    header
+},
+drugResistance {
+        gene { name },
+        drugScores {
+          drugClass { name },
+          drug { name, displayAbbr },
+          SIR,
+          score,
+          level,
+          text,
+          partialScores {
+            mutations {
+              text
+            },
+            score
+          }
+        }
+}
