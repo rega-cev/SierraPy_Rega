@@ -12,7 +12,7 @@ in short:
 in short:
 ```pip install pyfasta```
 
-2. Prepare your fasta file (input.fasta) and run the following command from your command line: 
+3. Prepare your fasta file (input.fasta) and run the following command from your command line: 
 
 ```sierrapy fasta input.fasta -q rega_query.gql -o input.json```
 where 
@@ -20,7 +20,7 @@ where
   * rega_query.gql is the file created by Rega and available on the Github page (https://github.com/rega-cev/SierraPy_Rega/blob/master/rega_query.gql)
   * input.json is the json result given by SierraPy
 
-3. Finally run the script parse.py (https://github.com/rega-cev/SierraPy_Rega/blob/master/parse.py) as follows:
+4. Finally run the script parse.py (https://github.com/rega-cev/SierraPy_Rega/blob/master/parse.py) as follows:
 ```python parse.py -i ../path/to/input.json > ../path/to/final.csv```
 where 
   * input.json is the file you got in step 2.
