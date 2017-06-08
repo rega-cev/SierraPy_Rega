@@ -6,11 +6,14 @@ How to use the new project?
 
 in short: 
 ```pip install sierrapy```
+
 2. Install pyfasta project from https://pypi.python.org/pypi/pyfasta/
 
 in short:
 ```pip install pyfasta```
+
 2. Prepare your fasta file (input.fasta) and run the following command from your command line: 
+
 ```sierrapy fasta input.fasta -q rega_query.gql -o input.json```
 where 
   * input.fasta is the file you just prepared
